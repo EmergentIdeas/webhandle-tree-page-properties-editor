@@ -1,0 +1,15 @@
+
+	__::@webhandle/tree-page-properties-editor/prepare__
+	<div id="tree-page-properties-editor" style="height: 80vh">
+		
+		
+	</div>
+	<script type="module">
+		import { TreePagePropertiesEditor } from "@webhandle/tree-page-properties-editor"
+		let mse = document.querySelector('#tree-page-properties-editor')
+		let editor = new TreePagePropertiesEditor({
+			el: mse
+		})
+		editor.render()
+		
+	</script>

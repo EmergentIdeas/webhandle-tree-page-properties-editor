@@ -1,0 +1,98 @@
+<div class="ei-form-styles">
+	<button class="save-page btn btn-primary">Save</button>
+	<br>
+	<br>
+	<div class="ei-css-grid">
+		<div class="xs12 t6">
+			<label class="xs12 t6">
+				Page name: __label__
+			</label>
+			<label>
+
+				URL: <a href="__path__">__path__</a>
+			</label>
+		</div>
+		<label class="xs12 t6">
+			Custom classes
+			<input name="customClasses" type="text" />
+		</label>
+		<div class="xs12 t6">
+			<label class="page-title xs12 t6">
+				Title
+				<input name="title" type="text" />
+				<div class="instructions">
+					This shows in the user's browser bar
+				</div>
+			</label>
+			<label class="page-visbility">
+				Page Visibility
+				<select name="pageVisibility">
+					<option value="public">public</option>
+					<option value="hidden">hidden</option>
+					<option value="private">private</option>
+				</select>
+				<div class="instructions">Hidden pages will not be shown in site index or search results. Private pages,
+					in addition to being hidden,
+					will not be accessible to users who are not signed in (the public).
+				</div>
+			</label>
+		</div>
+		<label class="page-description xs12 t6">
+			Description
+			<textarea name="description" rows="4"></textarea>
+			<div class="instructions">
+				This describes the page in search results
+			</div>
+		</label>
+		<label class="xs12 t6">
+			Header image
+			<input name="headerImage" type="hidden" data-view-component="@webhandle/image-input" />
+		</label>
+		<label class="xs12 t6">
+			Header video
+			<input name="headerVideo" type="hidden" data-view-component="@webhandle/file-input" />
+		</label>
+		<h2 class="xs12">Social</h2>
+		<label class="xs12 t6 page-image">
+			Social Image
+			<input name="image" type="hidden" data-view-component="@webhandle/image-input" />
+			<div class="instructions">
+				<p>
+					This is used by social media sites to show a page preview.
+					It should be about 1,200 x 630 pixels to 1,200 x 1100 pixels in size. So, longer than it is tall by
+					a decent amount.
+				</p>
+				<p>
+					However, even more important than the size is to use an image which can be automatically cropped
+					without suffering too much. So, nothing near the edges of the image and the subject of the picture
+					more or less in the center.
+
+					This creates flexibility so that if a platform decides square images are best, yours will still look
+					okay. If it decides long images work for its layout, perfect! If it wants super tall for mobile,
+					then your subject is still in frame.
+				</p>
+
+			</div>
+		</label>
+		<div class="xs12 t6">
+			<label class="page-title xs12 t6">
+				Social title
+				<input name="socialTitle" type="text" />
+				<div class="instructions">
+					This is shown as the title in a social post referencing this page.
+				</div>
+			</label>
+			<label class="page-description xs12 t6">
+				Social description
+				<textarea name="socialDescription" rows="4"></textarea>
+				<div class="instructions">
+					This is shown as the description in a social post referencing this page.
+				</div>
+			</label>
+		</div>
+	</div>
+	<br>
+	<br>
+	<button class="save-page btn btn-primary">Save</button>
+	<button class="edit-raw-page btn">Edit Page Source</button>
+</div>

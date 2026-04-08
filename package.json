@@ -1,0 +1,39 @@
+{
+  "name": "@webhandle/tree-page-properties-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "initialize-webhandle-component.mjs",
+  "scripts": {
+    "test": "run-webhandle-inspect ./test/start-server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmergentIdeas/webhandle-tree-page-properties-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EmergentIdeas/webhandle-tree-page-properties-editor/issues"
+  },
+  "homepage": "https://github.com/EmergentIdeas/webhandle-tree-page-properties-editor#readme",
+  "dependencies": {
+    "@dankolz/ei-css-grid": "^1.0.1",
+    "@webhandle/backbone-view": "^1.0.4",
+    "@webhandle/dialog": "^1.0.4",
+    "@webhandle/image-input": "^1.0.2",
+    "@webhandle/initialize-webhandle-component": "^1.0.3",
+    "@webhandle/material-icons": "^1.0.1",
+    "@webhandle/site-editor-bridge": "^1.0.4",
+    "ei-form-styles-1": "^1.0.4",
+    "kalpa-tree-on-page": "^1.0.8"
+  }
+  , "files": [
+	"*.mjs"
+	, "views/@webhandle"
+	, "public/js"
+	, "public/css"
+	, "README.md"
+  ]
+}

@@ -1,0 +1,7 @@
+__::start__
+<div>
+	<h1> Tree Page Properties Editor</h1>
+	__::@webhandle/tree-page-properties-editor/create-page-editor__
+</div>
+
+__::end__
