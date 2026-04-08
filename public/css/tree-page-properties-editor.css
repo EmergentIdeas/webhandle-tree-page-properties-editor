@@ -58,6 +58,7 @@
 		}
 	}
 	.node-view {
+		overflow: auto;
 		grid-column: 2;
 		grid-row: 1 / span 3;
 	}

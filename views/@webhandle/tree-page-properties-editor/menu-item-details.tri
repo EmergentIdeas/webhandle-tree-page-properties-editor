@@ -9,7 +9,7 @@
 			</label>
 			<label>
 
-				URL: <a href="__path__">__path__</a>
+				URL: <a href="/__path__">/__path__</a>
 			</label>
 		</div>
 		<label class="xs12 t6">
