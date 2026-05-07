@@ -35,12 +35,12 @@ initializeWebhandleComponent.setup = async function(webhandle, config) {
 	let managerImageInput = await setupImageInput(webhandle)
 	let gridManager = await gridSetup(webhandle)
 
-	webhandle.routers.preDynamic.use((req, res, next) => {
-		if(config.alwaysProvideResources || !initializeWebhandleComponent.supportsMultipleImportMaps(req)) {
+	if(config.alwaysProvideResources) {
+		webhandle.routers.preDynamic.use((req, res, next) => {
 			manager.addExternalResources(res.locals.externalResourceManager)
-		}
-		next()
-	})
+			next()
+		})
+	}
 	
 	manager.addExternalResources = (externalResourceManager, options) => {
 		managerMaterialIcons.addExternalResources(externalResourceManager)

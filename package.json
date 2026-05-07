@@ -1,6 +1,6 @@
 {
   "name": "@webhandle/tree-page-properties-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "initialize-webhandle-component.mjs",
   "scripts": {
